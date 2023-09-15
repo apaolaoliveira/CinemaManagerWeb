@@ -1,4 +1,5 @@
 @import url('bootstrap/dist/css/bootstrap.min.css');
+@import url('bootstrap-icons/font/bootstrap-icons.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 
 * {
@@ -6,16 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    background-color: rgb(37, 37, 37);
-    --red: #FF0000;
-    --yellow: ##FFFF00;
-}
-
-.navbar{
-    background-color: var(--red);
 }
 
 .navbar-brand{
@@ -31,8 +22,12 @@ body{
     font-weight: 700;
 }
 
+.nav-item span{
+    color: #fff;
+}
+
 .img-icon{
     height: 50px;
     width: 50px;
-    margin: 10px 20px;
+    margin: 0 20px;
 }

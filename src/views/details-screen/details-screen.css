@@ -1,11 +1,2 @@
 @import url('bootstrap/dist/css/bootstrap.min.css');
-
-body{
-    background-color: rgb(37, 37, 37);
-}
-
-.btnVoltar{
-    display: flex;
-    align-items: center;
-    padding: 30px;
-}
+@import url('bootstrap-icons/font/bootstrap-icons.min.css');
