@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../assets/cinemaIcon.ico" type="image/x-icon">
+    <link rel="icon" href="../../assets/popcornIcon.ico" type="image/x-icon">
     <title>Cinema Manager | Início</title>
 </head>
 <body style="background-color: rgb(37, 37, 37)">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
             <div class="container-fluid">
-                <img class="img-icon" src="../../assets/cinemaIcon.ico" alt="">
+                <img class="img-icon" src="../../assets/popcornIcon.png" alt="">
                 <span class="navbar-brand fs-2">
                     Cinema Manager
                 </span>
@@ -37,20 +37,28 @@
     </header>
 
     <section>
-        <div class="container d-grid gap-3">
-            <h1 class="fs-3 fw-bold text-warning">Filmes em Alta</h1>
-
-            <div class="row"> <!-- Linha -->
-                <div class="col-6 col-md-4 col-lg-2"> <!-- Coluna -->
-                    <div class="d-grid gap-2 text-center"> <!-- grid img e p -->
-                        <a href="details.html" class="text-decoration-none">
-                            <img src="https://image.tmdb.org/t/p/original/8tBhAn6qVRQzf5yvEcxjgPMgTkw.jpg" class="img-fluid rounded-4">
-                            <p class="fs-5 text-warning">Megatubarão 2</p>
-                        </a>
-                    </div>
-                </div>
+        <div id="lists" class="container d-grid gap-3">             
+            <div class="row">
+                <i class="bi bi-lightning-charge fs-5 text-danger col-auto my-2"></i>
+                <h2 class="fs-3 fw-bold text-danger col-auto my-2">Em alta</h2>
             </div>
+
+            <div id="TrendingList" class="row"></div>
+            
+            <div class="row">
+                <i class="bi bi-clock fs-5 text-danger col-auto my-2"></i>
+                <h2 class="fs-3 fw-bold text-danger col-auto my-2">Lançamentos</h2>
+            </div>
+
+            <div id="LaunchesList" class="row"></div>
+            
+            <div class="row">
+                <i class="bi bi-calendar3 fs-5 text-danger col-auto my-2"></i>
+                <h2 class="fs-3 fw-bold text-danger col-auto my-2">Em breve</h2>
+            </div>
+
+            <div id="UpcomingList" class="row"></div>
         </div>
     </section>
-</body>
+    </body>
 </html>

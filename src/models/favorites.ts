@@ -1,3 +1,3 @@
-export interface IFavoritosFilmes {
-    favoritosIds: number[];
+export interface IFavoriteMovies {
+    favoritesIds: number[];
 }

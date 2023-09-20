@@ -4,11 +4,11 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Webpack Debug",
-            "url": "http://localhost:8080/",
+            "name": "Debug",
+            "url": "http://localhost:8080",
             "webRoot": "${workspaceRoot}",
             "sourceMaps": true,
-            "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+            "outFiles": ["${workspaceFolder}"],
         }
     ]
 }

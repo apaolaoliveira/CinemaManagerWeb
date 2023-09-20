@@ -1,7 +1,7 @@
-export enum TipoLista {
-    Favoritos,
-    Lancamentos,
-    EmAlta,
-    EmBreve,
-    BemAvaliado
+export enum ListType {
+    Favorites,
+    Launches,
+    Trending,
+    Upcoming,
+    TopRated
 }

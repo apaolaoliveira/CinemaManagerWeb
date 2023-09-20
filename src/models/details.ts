@@ -1,10 +1,10 @@
-export class FilmeDetalhes {
+export class movieDetails {
     id: string;
-    titulo: string;
-    cartaz: string;
-    favoritado: number;
-    descricao: string;
-    generos: string[];
-    video: string;
+    title: string;
+    poster: string;
+    votes: number;
+    overview: string;
+    genres: string[];
+    trailer: string;
     banner: string;
 }

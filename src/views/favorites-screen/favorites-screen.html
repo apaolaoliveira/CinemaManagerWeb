@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../assets/cinemaIcon.ico" type="image/x-icon">
+    <link rel="icon" href="../../assets/popcornIcon.ico" type="image/x-icon">
     <title>Cinema Manager | Favoritos</title>
 </head>
 <body style="background-color: rgb(37, 37, 37)">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
             <div class="container-fluid">
-                <img class="img-icon" src="../../assets/cinemaIcon.ico" alt="">
+                <img class="img-icon" src="../../assets/popcornIcon.png" alt="">
                 <span class="navbar-brand fs-2">
                     Cinema Manager
                 </span>
@@ -35,5 +35,16 @@
             </div>
         </nav>
     </header>
+
+    <section>
+        <div id="lists" class="container d-grid gap-3">            
+            <div class="row">
+                <i class="bi bi-chat-heart fs-5 text-danger col-auto"></i>
+                <h2 class="fs-3 fw-bold text-danger col-auto">Favoritos</h2>
+            </div>
+
+            <div id="FavoritesList" class="row"></div>
+        </div>
+    </section>
 </body>
 </html>
