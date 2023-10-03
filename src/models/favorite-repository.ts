@@ -1,4 +1,4 @@
-import { IFavoriteMovies } from "../models/favorites";
+import { IFavoriteMovies } from "./favorites";
 
 export class favoriteRepository {
     public getFavorites(): IFavoriteMovies {

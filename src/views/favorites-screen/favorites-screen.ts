@@ -1,6 +1,6 @@
 import 'bootstrap';
 import './favorites-screen.css';
-import { favoriteRepository } from '../../services/favorite-repository';
+import { favoriteRepository } from '../../models/favorite-repository';
 import { IFavoriteMovies } from '../../models/favorites';
 import { movieService } from '../../services/movie.service';
 import { ListType } from '../../models/list-type';
