@@ -30,11 +30,7 @@ module.exports = {
     },
 
 	resolve: {
-        extensions: ['.ts', '.js', '.css'],
-
-        alias: {
-            assets: path.resolve(__dirname, 'src/assets')
-        }
+        extensions: ['.ts', '.js', '.css']
     },
 
 	plugins: [
@@ -52,12 +48,6 @@ module.exports = {
             filename: 'favorites.html',
             template: path.resolve(__dirname, 'src/views', 'favorites-screen', 'favorites-screen.html'),
             chunks: ['favorites'] 
-        }),
-        
-        new CopyWebpackPlugin({
-            patterns: [
-                {from: 'src/assets', to: 'assets'}
-            ]
         })
     ],
 
