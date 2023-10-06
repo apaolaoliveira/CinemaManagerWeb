@@ -9,8 +9,10 @@
     box-sizing: border-box;
 }
 
-body{
+body, html{
     --white: #eaeaea;
+    background-color: #181a1b;
+    height: 100%;
 }
 
 .navbar-brand{
