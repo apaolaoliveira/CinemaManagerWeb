@@ -3,7 +3,7 @@ import { movieDetails } from "../models/details";
 import { IFavoriteMovies } from "../models/favorites";
 import { ListType } from "../models/list-type";
 import { MovieList } from "../models/movie-list";
-import { favoriteRepository } from "../models/favorite-repository";
+import { favoriteRepository } from "./favorite-repository.service";
 
 export class movieService {
     private url: string;

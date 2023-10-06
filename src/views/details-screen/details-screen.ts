@@ -1,7 +1,7 @@
 import 'bootstrap';
 import './details-screen.css';
 import { IFavoriteMovies } from '../../models/favorites';
-import { favoriteRepository } from '../../models/favorite-repository';
+import { favoriteRepository } from '../../services/favorite-repository.service';
 import { movieService } from '../../services/movie.service';
 import { movieDetails } from '../../models/details';
 
